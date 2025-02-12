@@ -1,0 +1,40 @@
+/* exemplo de nomeação de classes css
+
+bloco {
+
+}
+
+bloco__elemento {
+
+
+}
+
+bloco__elemento--modificador {
+
+
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
