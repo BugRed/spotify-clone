@@ -1,13 +1,16 @@
-import logoSpotify from '../../assets/logo/spotify-logo.png'
-import "./style.css"
+import { Link } from "react-router-dom";
+import logoSpotify from "../../assets/logo/spotify-logo.png";
+import "./style.css";
 
 export default function Header() {
-    return (
-      <div className='header'>
+  return (
+    <div className="header">
+      <Link to="/">
         <img src={logoSpotify} alt="logo spotify" />
-        <a href="/">
-          <h1 className='header__link'>Spotify Clone</h1>
-        </a>
-      </div>
-    );
+      </Link>
+      <Link to="/">
+        <h1 className="header__link">Spotify Clone</h1>
+      </Link>
+    </div>
+  );
 }

@@ -38,3 +38,34 @@ a {
     text-decoration: none;
 }
 
+.main {
+    flex: 1;
+    background-image: linear-gradient(to bottom, hsl(141deg 75% 10%), black);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 10px 10px;
+}
+
+.main__texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main__link:hover {
+    text-decoration: underline;    
+}
+
+
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
